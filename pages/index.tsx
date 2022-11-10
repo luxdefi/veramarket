@@ -106,9 +106,11 @@ const Home: NextPage<Props> = ({ fallback }) => {
           </div>
           <h1 className="p-2 text-xl text-white">Uranium DROP</h1>
           <div className="grid h-[100px] w-[400px] grid-cols-2 gap-4">
+          <Link href={tokenHref}>
             <button className="mt-2 h-[50px] w-full rounded-md bg-black  p-2 text-xl text-white    ">
               Learn More
             </button>
+            </Link>
             <Link href={tokenHref}>
               <button className="mt-2 h-[50px] w-full rounded-md bg-black  p-2 text-xl text-white    ">
                 Buy Now
