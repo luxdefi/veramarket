@@ -6,7 +6,7 @@ import Head from 'next/head'
 import TrendingCollectionTable from 'components/TrendingCollectionTable'
 import SortTrendingCollections from 'components/SortTrendingCollections'
 import { useMediaQuery } from '@react-hookz/web'
-import { useEffect,  StrictMode, Suspense } from 'react'
+import { useEffect, StrictMode, Suspense } from 'react'
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
@@ -106,24 +106,24 @@ const Home: NextPage<Props> = ({ fallback }) => {
       <div className="col-span-full px-6 md:px-16">
         <div className="min-w-screen flex min-h-screen flex-col items-center ">
           <div className="mt-2 h-[300px] w-[250px] md:h-[400px] md:w-[400px]">
-          <StrictMode>
-    <div style={{ height: "inherit" }}>
-      <Canvas camera={{ zoom: 1.5 }}>
-        <ambientLight intensity={1} />
-        <directionalLight intensity={3} position={[2, 2, 2]} />
-        <Suspense fallback={null}>
-          <Model />
-        </Suspense>
-      </Canvas>
-    </div>
-  </StrictMode>
+            <StrictMode>
+              <div style={{ height: "inherit" }}>
+                <Canvas camera={{ zoom: 1.5 }}>
+                  <ambientLight intensity={1} />
+                  <directionalLight intensity={3} position={[2, 2, 2]} />
+                  <Suspense fallback={null}>
+                    <Model />
+                  </Suspense>
+                </Canvas>
+              </div>
+            </StrictMode>
           </div>
           <h1 className="p-2 text-xl text-white">Uranium DROP</h1>
           <div className="grid h-[100px] w-[400px] grid-cols-2 gap-4">
-          <Link href={tokenHref}>
-            <button className="mt-2 h-[50px] w-full rounded-md bg-black  p-2 text-xl text-white    ">
-              Learn More
-            </button>
+            <Link href={tokenHref}>
+              <button className="mt-2 h-[50px] w-full rounded-md bg-black  p-2 text-xl text-white    ">
+                Learn More
+              </button>
             </Link>
             <Link href={tokenHref}>
               <button className="mt-2 h-[50px] w-full rounded-md bg-black  p-2 text-xl text-white    ">
