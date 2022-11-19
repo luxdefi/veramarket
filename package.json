@@ -25,6 +25,8 @@
     "@ramosdiego/reservoir": "^0.0.15",
     "@ramosdiego/ui": "^0.0.10",
     "@react-hookz/web": "^14.2.2",
+    "@react-three/drei": "^9.41.0",
+    "@react-three/fiber": "^8.9.1",
     "@reservoir0x/reservoir-kit-client": "^0.1.13",
     "@reservoir0x/reservoir-kit-ui": "0.5.2",
     "@reservoir0x/sdk": "^0.0.123",
