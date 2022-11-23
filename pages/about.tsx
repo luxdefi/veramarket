@@ -9,10 +9,10 @@ import Header from "../components/Header"
     <>
      
 <Header/>
-      <div className="col-span-full px-6 md:px-16 justify-center flex-col mx-auto max-w-screen-xl ">
-        <header className="reservoir-h1 shrink-0 p-15 ml-28 mt-2  text-black mb-4 text-4xl tracking-tight font-extrabold text-left dark:text-white">About</header>
+      <div className="py-3 lg:py-8 px-8 mx-auto mt-2 max-w-screen-lg lg:w-[600px]">
+        <header className=" flex shrink-0 px-8 ml-8  text-black mb-4 text-4xl tracking-tight sm:text-center md:text-center font-extrabold lg:text-left xl:text-left dark:text-white">About</header>
 
-      <div className="min-w-screen flex min-h-screen  flex-col items-center justify-center  ">
+      <div className=" flex   flex-col items-center justify-center  ">
 
           <div className="h-[300px]  pt-3 mt-10 mb-10 flex-col w-3/4 flex-col abt-grad "></div>
         <div className="h-auto w-3/4 flex mt-10 text-left shrink-0">

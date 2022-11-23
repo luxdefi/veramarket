@@ -144,9 +144,10 @@ const Home: NextPage<Props> = ({ fallback }) => {
           </div>
            {!isSmallDevice && <SortTrendingAssetCollections />} 
         </div>
-
         {/* Static dummy collection */}
         <TrendingAssetCollection />
+  
+        
 
         <div className="mb-9 flex w-full items-center justify-between">
           <div className="reservoir-h4 dark:text-white">
@@ -156,6 +157,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
           {!isSmallDevice && <SortTrendingCollections />}
         </div>
         <TrendingCollectionTable fallback={fallback} />
+        
       </div>
     </Layout>
   )
