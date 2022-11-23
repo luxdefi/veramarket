@@ -41,7 +41,6 @@ const Navbar: FC = () => {
   const isMobile = useMediaQuery('(max-width: 520px)')
   const [hasCommunityDropdown, setHasCommunityDropdown] =
     useState<boolean>(false)
-
   const externalLinks: { name: string; url: string }[] = []
 
   if (typeof EXTERNAL_LINKS === 'string') {

@@ -92,56 +92,56 @@ const Home: NextPage<Props> = ({ fallback }) => {
         {image}
       </Head>
 
-    
-      
+
+
 
       <div className="col-span-full px-6 md:px-16">
-       
+
         <div className="min-w-screen flex min-h-screen flex-col items-center justify-center bg-black rounded-3xl pt-10 mt-10 mb-10">
           {/* <header className="col-span-full mb-12 mt-[66px] px-4 md:mt-40 lg:px-0 "> */}
           <p className="reservoir-h4 text-center text-[#21f23a]">ALL-NEW ASSET-BACKEND NFTS</p>
-            <h1 className="reservoir-h1 text-center text-white">
-              LUX URANIUM NFT
-            </h1>
-            <p className="reservoir-h4 text-center text-white">
-              Buy Uranium at over 30% off market spot price.
-            </p>
+          <h1 className="reservoir-h1 text-center text-white">
+            LUX URANIUM NFT
+          </h1>
+          <p className="reservoir-h4 text-center text-white">
+            Buy Uranium at over 30% off market spot price.
+          </p>
           {/* </header> */}
           <div className="mt-2 h-[300px] w-[250px] md:h-[400px] md:w-[400px]">
             {/* <ModelViewComp></ModelViewComp> */}
             <video loop muted autoPlay>
-             
+
 
               <source
                 src="./luxfinal1.mp4"
-               
+
                 type="video/mp4"
                 autoPlay={true}
                 loop
               />
             </video>
           </div>
-          <br/>
-      
+          <br />
+
           <div className="grid h-[100px] w-[400px] grid-cols-2 gap-4">
-            <button className="mt-2 h-[50px] w-full rounded-lg bg-white  p-2 text-lg text-black overflow-hidden">
+            <button className="mt-2   h-[50px] w-full rounded-lg bg-white  p-2 text-lg text-black overflow-hidden">
               Learn More
             </button>
             <Link href={tokenHref}>
-              <button className="mt-2 h-[50px] w-full rounded-lg  p-2 text-lg text-black bg-[#23f239]  overflow-hidden ">
+              <button className="mt-2  h-[50px] w-full rounded-lg  p-2 text-lg text-black bg-[#23f239]  overflow-hidden ">
                 Buy Now
               </button>
             </Link>
           </div>
         </div>
-        
+
         <div className="mb-9 flex w-full items-center justify-between">
           <div className="reservoir-h4 dark:text-white">
-          Trending Asset-Backend NFT Collections
+            Trending Asset-Backend NFT Collections
           </div>
           {/* {!isSmallDevice && <SortTrendingCollections />} */}
         </div>
-        
+
         <div className="mb-9 flex w-full items-center justify-between">
           <div className="reservoir-h4 dark:text-white">
             Trending Collections
