@@ -139,7 +139,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
         </div>
 
         <div className="mb-9 flex w-full items-center justify-between">
-          <div className="reservoir-h4 dark:text-white">
+          <div className="reservoir-h4 dark:text-white leading-{1.3}">
             Trending Asset-Backend NFT Collections
           </div>
            {!isSmallDevice && <SortTrendingAssetCollections />} 
@@ -150,7 +150,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
         
 
         <div className="mb-9 flex w-full items-center justify-between">
-          <div className="reservoir-h4 dark:text-white">
+          <div className="reservoir-h4 dark:text-white leading-{1.3git }">
             Trending Collections
           </div>
 
