@@ -110,7 +110,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
             Buy Uranium at over 30% off market spot price.
           </p>
           {/* </header> */}
-          <div className="mt-2 h-[300px] w-[250px] md:h-[400px] md:w-[400px]">
+          <div className="mt-2 h-[325px] w-[325px] md:h-[400px] md:w-[400px]">
             {/* <ModelViewComp></ModelViewComp> */}
             <video loop muted autoPlay>
 
@@ -126,7 +126,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
           </div>
           <br />
 
-          <div className="grid h-[100px] w-[400px]  grid-cols-2 gap-4">
+          <div className="grid h-[100px] w-[400px]  grid-cols-2 gap-4  ">
             <button className="mt-2   h-[50px] w-full font-sans font-semibold  rounded-[8px] bg-white  p-2 text-lg text-black overflow-hidden">
               Learn More
             </button>
